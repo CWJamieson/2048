@@ -101,7 +101,7 @@ public class ModPacker extends JFrame{
     private void addCheckBox()
     {
         //create box
-        adds = new JCheckBox("Enable adds?");
+        adds = new JCheckBox("Enable ads?");
         
         //create item listener(creds to Matthew Flaschen via stack overflow
         //&& Oracle)
