@@ -6,9 +6,9 @@
 *   to move tiles around a screen, adding like tiles until the board is filled
 *   or the 2048 tile is formed.
 *       This class: first window class, creates the window's panels, including
-*   the mod selection and instuctions. depending on what is selected, will fun
+*   the mod selection and instructions. depending on what is selected, will fill
 *   the main window method with different parameters. also contains the 
-*   option to have banner adds at the bottom
+*   option to have banner ads at the bottom
 */
 package pkg2048;
 
@@ -97,7 +97,7 @@ public class ModPacker extends JFrame{
         modList.addActionListener(listener);
     }//end of addModList
      
-     //chekc box method, to enable or disable adds
+     //chekc box method, to enable or disable ads
     private void addCheckBox()
     {
         //create box

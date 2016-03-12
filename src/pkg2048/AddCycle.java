@@ -5,7 +5,7 @@
 * Description: Program as a whole: replicated 2048 game. user uses buttons
 *   to move tiles around a screen, adding like tiles until the board is filled
 *   or the 2048 tile is formed.
-*       This class: the addcycle class rotates through banner adds at the
+*       This class: the addcycle class rotates through banner ads at the
     bottom of the main window to maximize revenue (Threading Creds to Stewart)
 */
 package pkg2048;
@@ -13,18 +13,18 @@ import javax.swing.*;
 import java.net.*;
 public class AddCycle implements Runnable{
 
-    //creates instace variables
+    //creates instance variables
     private ImageIcon [] pics = new ImageIcon [5];
     JLabel pic = new JLabel("");
     JLabel window;
     
-    //constuctor
+    //constructor
     public AddCycle(JLabel window)
     {
-        //assings add window to a instance variable
+        //assings ad window to a instance variable
         this.window = window;
         try{
-            //fills the array with the file location of assorted adds
+            //fills the array with the file location of assorted ads
             //(creds to whowantsakookie via stack overflow)
         pics[0] = new ImageIcon(new URL("file:.\\picStorage\\Adds\\ezgif-save.gif"));
         pics[1] = new ImageIcon(new URL("file:.\\picStorage\\Adds\\ezgif-save (1).gif"));
@@ -38,7 +38,7 @@ public class AddCycle implements Runnable{
         
     }//end of constructor
     
-    //run method to cycle through adds every two minutes
+    //run method to cycle through ads every two minutes
     public void run()
     {
         //create variable
